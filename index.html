@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link href="./style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><div class="buli"><h1 class="buli1">Üdvözöllek!</h1>
+    <p class="buli1">Gondolom, a szülinapi buli miatt vagy itt. Ez egy zártkörű esemény, csak a meghívottaknak szól. Írd le légyszi a keresztnevedet alulra, ékezetek nélkül.</p>
+ <form id="nameForm" novalidate>
+<label for="firstname" class="buli1">Keresztnév (ékezetek nélkül)</label>
+<input id="firstname" name="firstname" type="text" maxlength="30" autocomplete="given-name" placeholder="Pl. Istvan" aria-describedby="hint">
+<div id="hint" class="hint buli1">Kérlek, írd le a keresztneved ékezetek nélkül. A mező automatikusan eltávolítja az ékezeteket, de ellenőrzi, hogy ne legyen üres.</div>
+
+
+<div id="lastname-group">
+<label for="lastname" class="buli1">Vezetéknév</label>
+<input id="lastname" name="lastname" type="text" maxlength="30" autocomplete="family-name" placeholder="Pl. Kovacs">
+</div>
+
+
+<button class="btn" type="submit">Küldés</button>
+<div id="error" role="alert" class="error" aria-live="polite" style="display:none"></div>
+<div id="result" class="result" style="display:none"></div>
+</form>
+
+</div>
+
+
+    <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>
