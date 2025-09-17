@@ -1,8 +1,8 @@
 // Meghívott keresztnevek
-var keresztnevek = ["zsanett", "istvan", "kornelia", "iren", "mark", "agnes", "szofia", "nikolett", "kinga", "peter", "krisztian", "adrienn", "gabor", "nico"] ;
+var keresztnevek = ["zsanett", "istvan", "kornelia", "iren", "mark", "agnes", "szofia", "nikolett", "kinga", "peter", "krisztian", "adrienn", "gabor", "nico" , "melania" , "laszlo"] ;
 
 // Meghívott vezetéknevek
-var vezeteknev = ["litter", "varga", "rozsahegyi", "bogdan", "mihalovics", "fejes" , "manyik" , "vanmuysen"] ;
+var vezeteknev = ["litter", "varga", "rozsahegyi", "bogdan", "mihalovics", "fejes" , "manyik" , "vanmuysen", "orban"]  ;
 
 // Ékezetek eltávolítása
 function stripDiacritics(str){
